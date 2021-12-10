@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {FC} from 'react';
+import Header from "./components/Header/Header";
+import Content from "./components/Content/Content";
 
-const App = () => {
+const App: FC = () => {
   return (
       <div>
-
+          <Header />
+          <Content />
       </div>
   );
 };
